@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.meme-container {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.meme-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.meme-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    
+}
+
+.top-text {
+    top: 15px;
+}
+
+.bottom-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    margin-bottom: 62px; 
+}
+
+.remove-btn {
+    background-color: #45a049;
+}
+/*.remove-btn:hover {
+    background-color: #f44336;
+}*/
+
